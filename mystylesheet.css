@@ -1,5 +1,6 @@
 .mainheading{
     text-align: center;
+    font-family:Montserrat;
 }
 
 body { 
@@ -9,8 +10,8 @@ body {
 .container{
     position:absolute;
     margin:2%;
-    left:40%;
-    top:30%;
+    left:34%;
+    top:40%;
    
 }
 
@@ -21,12 +22,12 @@ body {
     border-radius:50%;
     
 }
-.red{
+.buttondesign{
     padding:2%;
-    border-radius:2%;
+    border-radius:5%;
     background:black;
     color:white;
-    font-family:fantasy;
+    font-family:Montserrat;
 }
 
 marquee {
