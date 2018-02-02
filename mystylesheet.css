@@ -3,13 +3,13 @@
 }
 
 body { 
-    background:url("http://www.solidbackgrounds.com/images/1680x1050/1680x1050-cream-solid-color-background.jpg");
+    background:url("http://www.solidbackgrounds.com/images/1920x1080/1920x1080-vanilla-solid-color-background.jpg");
 }
 
 .container{
     position:absolute;
     margin:2%;
-    left:30%;
+    left:40%;
     top:30%;
    
 }
@@ -17,14 +17,14 @@ body {
 .dark{
     padding:2%;
     color:white;
-    background:red;
+    background:black;
     border-radius:50%;
     
 }
 .red{
     padding:2%;
-    border-radius: 5%;
-    background:red;
+    border-radius:2%;
+    background:black;
     color:white;
     font-family:fantasy;
 }

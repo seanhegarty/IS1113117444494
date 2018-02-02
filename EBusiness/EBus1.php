@@ -11,45 +11,47 @@
         </head>
         
         <body>
+            
+            <PHP><head><link href ="Ebus.css" rel= "stylesheet" type="text/css"></head></PHP>
             <h4> Select a product </h4>
-            <br/>
-            <form method="POSt" action="EBus2.php">
+            <br>
+            <form method="POST" action="EBus2.php">
                 <label for="salesforce">
                     <input type ="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
                     Salesforce @ $100
                 </label>
                 
-                <br/>
+                <br>
                 
                 <label for="aws">
-                    <input type="radio" id-"aws" name="product" onClick="disablebtnProceed()"/>
+                    <input type="radio" id="aws" name="product" onClick="disablebtnProceed()"/>
                     AWS @ $300
                 </label>
                 
-                <br/>
-                <br/>
+                <br>
+                <br>
                 
                 <label for="subtotal">
                     Sub Total
                     <input type="text" id="subtotal" value="0.00" readonly/>
                 </label>
                 
-                <br/>
+                <br>
                 
                 <label for="total">
                     Total
                     <input type="text" id="total" value="0.00" readonly/>
                 </label>
                 
-                <br/>
+                <br>
                 
                 <button type="submit" id="btnProceed" disabled> Add to Shopping Cart</button>
             
             </form>
             
             <br/>
-            <button onClick"button" href="calcSub()" > Calculate Cost</button>
-            <a role="button" href="Ebus.php"> Clear Choice</a>
+            <button onClick="calcSub()" > Calculate Cost</button>
+            <a href="EBus1.php"><input type="button" class="clear"  value="Clear"></a>
             
         </body>
         
