@@ -1,16 +1,17 @@
 #section1{
-     background-color : rgb(238, 0, 90);
+     background:url("https://im.vsco.co/1/53e64dabb9d3a878789/53e8451d72670844308b4577/vsco_081114.jpg?h=800");
 }
 
 #section2{
-     background-color : rgb(44, 62, 80);
+     background:url("http://www.cnto.org/wp-content/uploads/2014/05/slide1.jpg");
 }
 
 #section3{
-     background-color : rgb(51, 153, 204);
+     background:url("https://www.azamaraclubcruises.com/sites/default/files/heros/melbourne-australia.jpg");
 }
 
 .section{
      text-align: center;
      color: white;
+     font-family:sans-serif;
 }
