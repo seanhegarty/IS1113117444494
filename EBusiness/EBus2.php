@@ -1,3 +1,7 @@
+<?php
+// Start the session
+session_start();
+?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -22,6 +26,10 @@
             <br/>
             <button onClick="validateDetails()">Validate</button>
             
+            <?php
+            //Set session variables
+            $_SESSION["total"] = $_POST["total"];
+            ?>
         </div>
         
         <script type="text/javascript" src="EBus2_validator.js"></script>
