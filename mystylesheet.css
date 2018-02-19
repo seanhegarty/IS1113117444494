@@ -33,3 +33,11 @@ body {
 marquee {
     font-family:fantasy;
 }
+
+.buttons{
+    position:absolute;
+    margin:2%;
+    left:42%;
+    top:40%;
+}
+
