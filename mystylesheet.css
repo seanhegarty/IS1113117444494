@@ -1,6 +1,7 @@
 .mainheading{
     text-align: center;
     font-family:Montserrat;
+    color: white;
 }
 
 body { 
@@ -42,6 +43,7 @@ marquee {
 }
 
 
+    /*Naviaton bar*/
 ul {
     list-style-type: none;
     margin: 0;
@@ -51,7 +53,6 @@ ul {
 }
 
 
-    /*Naviaton bar*/
 li {
     float: left;
 }
@@ -64,10 +65,73 @@ li a {
     text-decoration: none;
 }
 
-li a:hover:not(.active) {
-    background-color: #111;
-    text-decoration: none;
-    color:white;
+
+
+
+
+.button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #355dff;
 
 }
 
+.button1:hover {
+    background-color: #355dff;
+    color: white;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.button2 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #26ff1e;
+}
+
+.button2:hover {
+    background-color: #26ff1e;
+    color: white;
+    text-decoration: none;
+    transition-duration: 0.4s;
+}
+
+.button3 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #7f1eff;
+}
+
+.button3:hover {
+    background-color: #7f1eff;
+    color: white;
+    text-decoration: none;
+    transition-duration: 0.4s;
+}
+
+.button4 {
+    background-color: white;
+    color: black;
+    border: 2px solid #ff1edd;
+}
+
+.button4:hover {
+    background-color: #ff1edd;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    color: white;
+}
+
+.button5 {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+}
+
+.button5:hover {
+    background-color: #555555;
+    color: white;
+    transition-duration: 0.4s;
+    text-decoration: none;
+}
