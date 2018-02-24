@@ -13,4 +13,24 @@
 .section{
      text-align: center;
      color: white;
+
+     
+     
+}
+
+#section4{
+     background:color "green"
+}
+
+#section5{
+     background:url("http://www.cnto.org/wp-content/uploads/2014/05/slide1.jpg");
+}
+
+#section6{
+     background:url("https://www.azamaraclubcruises.com/sites/default/files/heros/melbourne-australia.jpg");
+}
+
+.section2{
+     text-align: center;
+     color: white;
 }

@@ -1,7 +1,11 @@
 .mainheading{
     text-align: center;
     font-family:Montserrat;
-    color: white;
+    color: Black;
+}
+
+.homepagebackground {
+    background:url("https://www.planochildrensmedicalclinic.org/wp-content/uploads/2016/09/backgroundNEW.jpg");
 }
 
 body { 
@@ -49,7 +53,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: white;
 }
 
 
@@ -134,4 +138,76 @@ li a {
     color: white;
     transition-duration: 0.4s;
     text-decoration: none;
+}
+
+.button6 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #e2461f:
+
+}
+
+.button6:hover {
+    background-color: #e2461f;
+    color: white;
+    text-decoration: none;
+    transition-duration: 0.4s;
+}
+
+.buttonex {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.buttonblue{background-color: #008CBA;} /* Blue */
+
+
+/*hover button*/
+
+.buttonhover {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #918f8e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.buttonhover span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.buttonhover span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.buttonhover:hover span {
+  padding-right: 25px;
+}
+
+.buttonhover:hover span:after {
+  opacity: 1;
+  right: 0;
 }
