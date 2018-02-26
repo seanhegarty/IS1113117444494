@@ -1,10 +1,10 @@
 .mainheading{
     text-align: center;
     font-family:Montserrat;
-    color: #556570;
-    left:37%;
+    color: #959799;
+    left:30%;
     top:30%;
-    font-size:65px;
+    font-size:40px;
     font-weight:900;
     text-decoration:underline;
 }
@@ -16,7 +16,7 @@
 }
 
 .homepagebackground {
-    background:url("http://xdesktopwallpapers.com/wp-content/uploads/2012/01/White%20Clouds%20And%20Blue%20Sky%20Closeup.jpg");
+    background:url("https://s-media-cache-ak0.pinimg.com/originals/b7/3f/9d/b73f9d4aaf7e3c24d67cf7edcf80a964.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100%;
@@ -26,7 +26,7 @@
 }
 
 body { 
-    background:url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/V7hRLuVqxikh75uky/abstract-light-grey-3d-polygonal-motion-background-for-modern-reports-and-presetations-4k-seamless-loop-animation-prores_s7sptfhc_thumbnail-full01.png");
+    background:url("http://www.publicdomainpictures.net/pictures/30000/velka/wooden-background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100%;
@@ -87,13 +87,15 @@ marquee {
 }
 
 
+
+
     /*Naviaton bar*/
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: white;
+    background-color: black;
     font-family:sans-serif;
 }
 
@@ -115,10 +117,8 @@ li a {
 
 
 .button1 {
-    background-color: white; 
-    color: black; 
-    border: 2px solid #355dff;
-
+    background-color: black; 
+    color: #355dff; 
 }
 
 .button1:hover {
@@ -130,9 +130,8 @@ li a {
 }
 
 .button2 {
-    background-color: white; 
-    color: black; 
-    border: 2px solid #26ff1e;
+    background-color: black; 
+    color: #26ff1e; 
 }
 
 .button2:hover {
@@ -143,9 +142,8 @@ li a {
 }
 
 .button3 {
-    background-color: white; 
-    color: black; 
-    border: 2px solid #7f1eff;
+    background-color: black; 
+    color: #7f1eff; 
 }
 
 .button3:hover {
@@ -156,9 +154,8 @@ li a {
 }
 
 .button4 {
-    background-color: white;
-    color: black;
-    border: 2px solid #ff1edd;
+    background-color: black;
+    color:#ff1edd;
 }
 
 .button4:hover {
@@ -169,9 +166,8 @@ li a {
 }
 
 .button5 {
-    background-color: white;
-    color: black;
-    border: 2px solid #dd5800;
+    background-color: black;
+    color: #dd5800;
 }
 
 .button5:hover {
@@ -182,10 +178,8 @@ li a {
 }
 
 .button6 {
-    background-color: white; 
-    color: black; 
-    border: 2px solid ##d6dd02:
-
+    background-color: black; 
+    color: white; 
 }
 
 .button6:hover {
@@ -194,6 +188,21 @@ li a {
     text-decoration: none;
     transition-duration: 0.4s;
 }
+
+
+.button7 {
+    background-color: black; 
+    color: white; 
+}
+
+.button7:hover {
+    background-color: #919696;
+    color: black;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    
+    
 
 .buttonex {
     background-color: #4CAF50; /* Green */
