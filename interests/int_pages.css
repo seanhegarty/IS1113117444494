@@ -1,23 +1,38 @@
 #section1{
      background:url("http://www.technocrazed.com/wp-content/uploads/2015/12/Dubai-Wallpaper-10.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     min-height: 100%;
+     width: 100%;
+     left:0;
+     top:0;
 }
 
 #section2{
-     background:url("http://thewallpaper.co/wp-content/uploads/2016/09/cool-hd-wallpapers-Backgrounds-High-Resolution-Desktop-Wallpapers-hd-wallpapers-1080p-High-Definition-Nature-images-landscapes-picture-1920x1080.jpg");
+     background:url("https://s-media-cache-ak0.pinimg.com/originals/08/76/f8/0876f83e951fc03085eb8d0d9174e354.jpg");
+      background-repeat: no-repeat;
+     background-size: cover;
+     min-height: 100%;
+     width: 100%;
+     left:0;
+     top:0;
 }
 
 #section3{
      background:url("https://www.azamaraclubcruises.com/sites/default/files/heros/melbourne-australia.jpg");
+      background-repeat: no-repeat;
+     background-size: cover;
+     min-height: 100%;
+     width: 100%;
+     left:0;
+     top:0;
 }
 
 .section{
      text-align: center;
      color: white;
-
-     
-     
 }
-
+     
 #section4{
      background:color "green"
 }
