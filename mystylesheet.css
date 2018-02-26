@@ -1,11 +1,22 @@
 .mainheading{
     text-align: center;
     font-family:Montserrat;
+    color: #556570;
+    left:37%;
+    top:30%;
+    font-size:65px;
+    font-weight:900;
+    text-decoration:underline;
+}
+
+.headingcv{
+    text-align: center;
     color: Black;
+    font-family:sans-serif;
 }
 
 .homepagebackground {
-    background:url("https://www.planochildrensmedicalclinic.org/wp-content/uploads/2016/09/backgroundNEW.jpg");
+    background:url("http://xdesktopwallpapers.com/wp-content/uploads/2012/01/White%20Clouds%20And%20Blue%20Sky%20Closeup.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100%;
@@ -52,11 +63,13 @@ marquee {
 }
 
 
-.buttonmiddle {
+.textmiddle {
     position:absolute;
     margin:2%;
-    left:40%;
+    left:37%;
     top:30%;
+    font-size:28px;
+    font-family:sans-serif;
 }
 
 .buttonleft{
@@ -81,6 +94,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: white;
+    font-family:sans-serif;
 }
 
 
@@ -90,7 +104,7 @@ li {
 
 li a {
     display: block;
-    color: white;
+    color: #dce0e2;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
