@@ -13,6 +13,9 @@
     text-align: center;
     color: Black;
     font-family:sans-serif;
+    color:#1f2021;
+    font-size:50px;
+    text-decoration:underline;
 }
 
 .homepagebackground {
@@ -26,7 +29,7 @@
 }
 
 body { 
-    background:url("http://www.publicdomainpictures.net/pictures/30000/velka/wooden-background.jpg");
+    background:url("http://avante.biz/wp-content/uploads/Desk-Wallpapers/Desk-Wallpapers-005.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100%;
@@ -38,8 +41,7 @@ body {
 .container{
     position:absolute;
     margin:2%;
-    left:34%;
-    top:40%;
+    top:20%;
    
 }
 
@@ -66,9 +68,9 @@ marquee {
 .textmiddle {
     position:absolute;
     margin:2%;
-    left:37%;
+    left:32%;
     top:30%;
-    font-size:28px;
+    font-size:32px;
     font-family:sans-serif;
 }
 
@@ -76,8 +78,28 @@ marquee {
     position:absolute;
     margin:2%;
     left:0%;
-    top:75%;
+    top:79%;
 }
+
+.buttonleftdesign{
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    border-radius: 12px;
+    background-color: #0f0f0f;
+    text-decoration: none;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.buttonleftdesign:hover {
+    color: white;
+}
+
 
 .buttonright{
     position:absolute;
@@ -202,7 +224,7 @@ li a {
     transition-duration: 0.4s;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
     
-    
+}   
 
 .buttonex {
     background-color: #4CAF50; /* Green */
@@ -225,7 +247,7 @@ li a {
 .buttonhover {
   display: inline-block;
   border-radius: 12px;
-  background-color: #918f8e;
+  background-color: #0f0f0f;
   border: none;
   color: #FFFFFF;
   text-align: center;
