@@ -9,7 +9,7 @@
 }
 
 #section2{
-     background:url("https://s-media-cache-ak0.pinimg.com/originals/08/76/f8/0876f83e951fc03085eb8d0d9174e354.jpg");
+     background:url("https://scontent-dub4-1.xx.fbcdn.net/v/t1.0-9/28468797_1805460216191114_122669110327081055_n.jpg?oh=364da5982eade6a811a8d9973cfc87b6&oe=5B03E938");
       background-repeat: no-repeat;
      background-size: cover;
      min-height: 100%;
@@ -19,7 +19,7 @@
 }
 
 #section3{
-     background:url("https://www.azamaraclubcruises.com/sites/default/files/heros/melbourne-australia.jpg");
+     background:url("https://s-media-cache-ak0.pinimg.com/originals/74/c1/87/74c187c02eed0b1f5ea14336397d574f.jpg");
       background-repeat: no-repeat;
      background-size: cover;
      min-height: 100%;
@@ -32,20 +32,88 @@
      text-align: center;
      color: white;
 }
-     
+
+
 #section4{
-     background:color "green"
+     background:url("http://shabier.com/images/nike-soccer-wallpaper/nike-soccer-wallpaper-25.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     min-height: 100%;
+     width: 100%;
+     left:0;
+     top:0;
 }
+
 
 #section5{
-     background:url("http://www.cnto.org/wp-content/uploads/2014/05/slide1.jpg");
+     background:url("http://homepage.eircom.net/~douglashall/u11s0405.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     min-height: 100%;
+     width: 100%;
+     left:0;
+     top:0;
 }
+
 
 #section6{
-     background:url("https://www.azamaraclubcruises.com/sites/default/files/heros/melbourne-australia.jpg");
+     background:url("https://soccerkilla.files.wordpress.com/2014/01/tumblr_m4m833zvac1rsahgio1_500.jpg?w=614");
+     background-repeat: no-repeat;
+     background-size: cover;
+     min-height: 100%;
+     width: 100%;
+     left:0;
+     top:0;
 }
 
-.section2{
-     text-align: center;
-     color: white;
+#section7{
+     background:url("https://s-media-cache-ak0.pinimg.com/originals/da/c9/15/dac915ec232e3b48d462ebba48366d12.png");
+     background-repeat: no-repeat;
+     background-size: cover;
+     min-height: 100%;
+     width: 100%;
+     left:0;
+     top:0;
 }
+
+#section8{
+     background:url("http://e0.365dm.com/15/12/16-9/20/jack-grealish-aston-villa-arsenal-premier-league-grealish_3389586.jpg?20151218122910");
+     background-repeat: no-repeat;
+     background-size: cover;
+     min-height: 100%;
+     width: 100%;
+     left:0;
+     top:0;
+}
+
+     
+#section9{
+     background:url("https://i.ytimg.com/vi/Z_qw6ydHwDQ/maxresdefault.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     min-height: 100%;
+     width: 100%;
+     left:0;
+     top:0;
+}
+
+#section10{
+     background:url("https://www.advantour.com/img/china/architecture/architecture4.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     min-height: 100%;
+     width: 100%;
+     left:0;
+     top:0;
+}
+
+#section11{
+     background:url("https://imageproxy.viewbook.com/882992b5320546ff548c72dfbcf22311_hd.jpg?fit=max&dpr=1&w=960");
+     background-repeat: no-repeat;
+     background-size: cover;
+     min-height: 100%;
+     width: 100%;
+     left:0;
+     top:0;
+}
+     

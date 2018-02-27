@@ -1,10 +1,10 @@
 .mainheading{
     text-align: center;
     font-family:Montserrat;
-    color: #959799;
+    color: #ba892c;
     left:30%;
     top:30%;
-    font-size:40px;
+    font-size:70px;
     font-weight:900;
     text-decoration:underline;
 }
@@ -72,13 +72,22 @@ marquee {
     top:30%;
     font-size:32px;
     font-family:sans-serif;
+    color:#1c1b1a;
 }
 
 .buttonleft{
     position:absolute;
     margin:2%;
-    left:0%;
+    left:5%;
     top:79%;
+}
+
+
+.buttonhome{
+    position:absolute;
+    margin:2%;
+    left:45%;
+    top:87%;
 }
 
 .buttonleftdesign{
@@ -86,7 +95,7 @@ marquee {
     padding: 20px;
     width: 200px;
     border-radius: 12px;
-    background-color: #0f0f0f;
+    background-color: #1c1b1a;
     text-decoration: none;
     border: none;
     color: #FFFFFF;
@@ -135,16 +144,36 @@ li a {
 }
 
 
+.homebutton{
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    border-radius: 12px;
+    background:url("");
+    text-decoration: none;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
 
+.homebuttoncont{
+    position:absolute;
+    margin:2%;
+    left:35%;
+    top:79%;
+}
 
 
 .button1 {
     background-color: black; 
-    color: #355dff; 
+    color: #4592e0; 
 }
 
 .button1:hover {
-    background-color: #355dff;
+    background-color: #4592e0;
     color: white;
     text-decoration: none;
     transition-duration: 0.4s;
@@ -153,11 +182,11 @@ li a {
 
 .button2 {
     background-color: black; 
-    color: #26ff1e; 
+    color: #ce4e3a; 
 }
 
 .button2:hover {
-    background-color: #26ff1e;
+    background-color: #ce4e3a;
     color: white;
     text-decoration: none;
     transition-duration: 0.4s;
@@ -165,11 +194,11 @@ li a {
 
 .button3 {
     background-color: black; 
-    color: #7f1eff; 
+    color: #5e8e33; 
 }
 
 .button3:hover {
-    background-color: #7f1eff;
+    background-color: #5e8e33;
     color: white;
     text-decoration: none;
     transition-duration: 0.4s;
@@ -177,11 +206,11 @@ li a {
 
 .button4 {
     background-color: black;
-    color:#ff1edd;
+    color:#a82a78;
 }
 
 .button4:hover {
-    background-color: #ff1edd;
+    background-color: #a82a78;
     text-decoration: none;
     transition-duration: 0.4s;
     color: white;
@@ -189,11 +218,11 @@ li a {
 
 .button5 {
     background-color: black;
-    color: #dd5800;
+    color: #ce9d3b;
 }
 
 .button5:hover {
-    background-color: #dd5800;
+    background-color: #ce9d3b;
     color: white;
     transition-duration: 0.4s;
     text-decoration: none;
@@ -205,7 +234,7 @@ li a {
 }
 
 .button6:hover {
-    background-color: ##d6dd02;
+    background-color: #d6dd02;
     color: white;
     text-decoration: none;
     transition-duration: 0.4s;
@@ -247,7 +276,7 @@ li a {
 .buttonhover {
   display: inline-block;
   border-radius: 12px;
-  background-color: #0f0f0f;
+  background-color: #1c1b1a;
   border: none;
   color: #FFFFFF;
   text-align: center;
