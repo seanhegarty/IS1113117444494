@@ -83,6 +83,18 @@ marquee {
 }
 
 
+.hometextdesign{
+    font-family:Brush Script MT, Brush Script Std, cursive;
+    color:#232426;
+}
+
+.hometext{
+    position:absolute;
+    margin:2%;
+    left:38%;
+    top:87%;
+}
+
 .buttonhome{
     position:absolute;
     margin:2%;
