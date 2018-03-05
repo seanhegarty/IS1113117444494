@@ -9,6 +9,19 @@
     text-decoration:underline;
 }
 
+.fontsizeraven{
+    font-size:12px;
+}
+
+.headingraven{
+    text-align: center;
+    font-family:sans-serif;
+    color:#f2f4f7;
+    font-size:50px;
+    text-decoration:underline;
+}
+
+
 .headingcv{
     text-align: center;
     color: Black;
@@ -17,6 +30,17 @@
     font-size:50px;
     text-decoration:underline;
 }
+
+.ravenbackground{
+    background:url("http://faceboxteam.com/wp-content/uploads/2015/03/6IfqnYUDSl4n0zQB4BgjiLVe4KU.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+    width: 100%;
+    left:0;
+    top:0;
+}
+
 
 .homepagebackground {
     background:url("https://s-media-cache-ak0.pinimg.com/originals/b7/3f/9d/b73f9d4aaf7e3c24d67cf7edcf80a964.jpg");
@@ -38,11 +62,94 @@ body {
     top:0;
 }
 
-.container{
+.textravenbio{
+    text-align: center;
     position:absolute;
     margin:2%;
     top:20%;
-   
+    font-size:16px;
+    font-family:sans-serif;
+    color:#f2f4f7;
+}
+
+.textraven1{
+    position:absolute;
+    font-family:sans-serif;
+    color:#f2f4f7;
+    left:3%;
+    font-size:14px;
+    text-decoration:underline;
+}
+
+.saas{
+    position:absolute;
+    font-family:sans-serif;
+    color:#f2f4f7;
+    left:3%;
+    font-size:16px;
+    width:17em;
+    height:26em;
+    border-style:ridge;
+}
+.saas img {
+    width:105px;
+    left:5em;
+    position:absolute;
+    
+}
+
+.paas{
+    position:absolute;
+    font-family:sans-serif;
+    color:#f2f4f7;
+    left:28%;
+    font-size:16px;
+    width:17em;
+    height:26em;
+    border-style:ridge;
+}
+.paas img {
+    width:75px;
+    left:6em;
+    position:absolute;
+    top:82%;
+    
+}
+
+.iaas{
+    position:absolute;
+    font-family:sans-serif;
+    color:#f2f4f7;
+    left:52%;
+    font-size:16px;
+    width:17em;
+    height:26em;
+    border-style:ridge;
+}
+.iaas img {
+    width:120px;
+    left:5em;
+    position:absolute;
+    top:87%;
+    
+}
+
+.caas{
+    position:absolute;
+    font-family:sans-serif;
+    color:#f2f4f7;
+    left:74%;
+    font-size:16px;
+    width:19em;
+    height:26em;
+    border-style:ridge;
+}
+
+.caas img {
+    width:130px;
+    left:6em;
+    position:absolute;
+    top:82%;
 }
 
 .dark{
@@ -85,14 +192,22 @@ marquee {
 
 .hometextdesign{
     font-family:Brush Script MT, Brush Script Std, cursive;
-    color:#232426;
+    color:#101111;
 }
 
 .hometext{
     position:absolute;
     margin:2%;
     left:38%;
-    top:87%;
+    top:85.5%;
+}
+
+
+.buttonebus{
+    position:absolute;
+    margin:2%;
+    left:41%;
+    top:92%;
 }
 
 .buttonhome{
@@ -100,6 +215,13 @@ marquee {
     margin:2%;
     left:45%;
     top:87%;
+}
+
+.learnmore{
+    position:absolute;
+    margin:2%;
+    left:40%;
+    top:80%;
 }
 
 .buttonleftdesign{
@@ -316,7 +438,7 @@ li a {
 .buttonhover {
   display: inline-block;
   border-radius: 12px;
-  background-color: #1c1b1a;
+  background-color: #101111;
   border: none;
   color: #FFFFFF;
   text-align: center;
