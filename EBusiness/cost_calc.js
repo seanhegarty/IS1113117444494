@@ -1,8 +1,8 @@
 /* global $ */
-
+var argSubTotal;
 function calcSub(){
     
-    var argSubTotal;
+    
     
     if(document.getElementById('salesforce').checked) {
       argSubTotal = 100;
@@ -21,19 +21,19 @@ function calcSub(){
 }
 
 
-function calcDisVatTotal(parmSubTotal){
-  var subTotal = parmSubTotal;
-  var discountAmt;
-  var vatAmt;
+function calcDisVatTotal(){
+  var parmSubTotal =(argSubTotal);
+  var discountAmt = 0.05;
+  var vatAmt=0.1;
   var totalPrice;
 
-  discountAmt = (parmSubTotal * 0.05);
+  discountAmt = (parmSubTotal * discountAmt);
   
-  vatAmt = ((parmSubTotal - discountAmt) * 0.1);
+  vatAmt = (parmSubTotal - discountAmt) * vatAmt;
   
   totalPrice = ((parmSubTotal + vatAmt) - discountAmt);
   
-  display(subTotal, discountAmt, vatAmt, totalPrice);
+  display(argSubTotal, discountAmt, vatAmt, totalPrice);
 }
 
 
