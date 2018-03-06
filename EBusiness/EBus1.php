@@ -23,9 +23,23 @@
                 
                 <br>
                 
+                <label for="GMail">
+                    <input type ="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
+                    Cloud 9 @ $200
+                </label>
+                
+                <br>
+                
                 <label for="aws">
                     <input type="radio" id="aws" name="product" onClick="disablebtnProceed()"/>
-                    AWS @ $300
+                    Amazon Web Services @ $300
+                </label>
+                
+                <br>
+                
+                <label for="GMail">
+                    <input type ="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
+                    GMail @ $400
                 </label>
                 
                 <br>
