@@ -14,7 +14,7 @@ function calcSub(){
       argSubTotal = 300;
     }
     else {
-      argSubTotal = 00;
+      argSubTotal = 400;
     }
     
     calcDisVatTotal(argSubTotal);
