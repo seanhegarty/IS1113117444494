@@ -10,21 +10,21 @@
             <script type="text/javascript" src="cost_calc.js"> </script>
         </head>
         
-        <body>
+        <body class="paymentbackground">
             
-            <PHP><head><link href ="Ebus.css" rel= "stylesheet" type="text/css"></head></PHP>
-            <h4> Select a product </h4>
+            <PHP><head><link href ="EBus.css" rel= "stylesheet" type="text/css"></head></PHP>
+            <h1 class="headingpayment"> Select a product </h1>
             <br>
             <form method="POST" action="EBus2.php">
                 <label for="salesforce">
-                    <input type ="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
+                    <input type ="radio" id="salesforce" name="product" checked="Checked" onClick="disablebtnProceed()"/>
                     Salesforce @ $100
                 </label>
                 
                 <br>
                 
                 <label for="Cloud9">
-                    <input type ="radio" id="cloud9" name="product" checked onClick="disablebtnProceed()"/>
+                    <input type ="radio" id="cloud9" name="product" onClick="disablebtnProceed()"/>
                     Cloud 9 @ $200
                 </label>
                 
@@ -38,7 +38,7 @@
                 <br>
                 
                 <label for="GMail">
-                    <input type ="radio" id="gmail" name="product" checked onClick="disablebtnProceed()"/>
+                    <input type ="radio" id="gmail" name="product"  onClick="disablebtnProceed()"/>
                     GMail @ $400
                 </label>
                 
@@ -72,13 +72,15 @@
                 </label>
                 
                 <br>
-                
-                <button type="submit" id="btnProceed" disable> Add to Shopping Cart</button>
+                <div class="shoppingcart">
+                <button class="button button3" type="submit" id="btnProceed" disable> Add to Shopping Cart</button>
+                </div>
             
             </form>
             
-            <br/>
+            <br>
             <button onClick="calcSub();calcDisVatTotal()"> Calculate Cost</button>
+            <br>
             <a href="EBus1.php"><input type="button" class="clear"  value="Clear"></a>
             
         </body>
