@@ -1,19 +1,19 @@
 .headingpayment{
     text-align: center;
     font-family:sans-serif;
-    color:#d9dce0;
+    color:black;
     font-size:60px;
 }
 
 .paymentbackground{
-    background:url("https://wallpapercave.com/wp/DTvUQor.jpg");
+    background:url("https://cdn.wallpaperdirect.com/shared-assets/images/products/118952orig.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100%;
     width: 100%;
     left:0;
     top:0;
-    color:#d9dce0;
+    color:black;
     font-family:sans-serif;
     font-size:28px;
     text-align: center;
@@ -64,8 +64,21 @@
 .shoppingcart{
     position:absolute;
     margin:2%;
-    left:45%;
+    left:40%;
     top:80%;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
 }
 
 .button3 {
