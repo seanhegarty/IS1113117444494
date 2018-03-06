@@ -52,6 +52,20 @@
                 
                 <br>
                 
+                <label for="discount">
+                    Discount @ 5%
+                    <input type="text" id="discount" name="discount" readonly/>
+                </label>
+                
+                <br>
+                
+                <label for="vat">
+                    VAT @ 10%
+                    <input type="text" id="vat" name="vat" readonly/>
+                </label>
+                
+                <br>
+                
                 <label for="total">
                     Total
                     <input type="text" id="total" name="total" value="0.00" readonly/>
@@ -59,12 +73,12 @@
                 
                 <br>
                 
-                <button type="submit" id="btnProceed" disabled> Add to Shopping Cart</button>
+                <button type="submit" id="btnProceed" disable> Add to Shopping Cart</button>
             
             </form>
             
             <br/>
-            <button onClick="calcSub()" > Calculate Cost</button>
+            <button onClick="calcSub();calcDisVatTotal()"> Calculate Cost</button>
             <a href="EBus1.php"><input type="button" class="clear"  value="Clear"></a>
             
         </body>

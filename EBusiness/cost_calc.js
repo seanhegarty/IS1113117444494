@@ -17,7 +17,7 @@ function calcSub(){
       argSubTotal = 400;
     }
     
-    calcDisVatTotal(argSubTotal);
+    (calcDisVatTotal(argSubTotal));
 }
 
 
@@ -54,23 +54,4 @@ function enablebtnProceed(){
 
 function disablebtnProceed() {
     $('#btnProceed').prop('disabled', true);
-}
-
-
-function rbChecked(){
-  disablebtnProceed();
-    
-    /* Displays the picture of the selected radio button product */
-    if(document.getElementById('salesforce').checked) {
-      document.getElementById('pic_test').src='../Images/salesforce_logo.png';
-    }
-    else if (document.getElementById('cloud9').checked){
-      document.getElementById('pic_test').src='../Images/cloud9_logo.png';
-    }
-    else if (document.getElementById('aws').checked){
-      document.getElementById('pic_test').src='../Images/aws_logo.png';
-    }
-    else{
-      document.getElementById('pic_test').src='../Images/gmail_logo.png';
-    }
 }
