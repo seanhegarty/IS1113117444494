@@ -7,10 +7,10 @@ function calcSub(){
     if(document.getElementById('salesforce').checked) {
       argSubTotal = 100;
     }
-    else if(document.getElementById('Cloud9').checked) {
+    else if(document.getElementById('cloud9').checked) {
       argSubTotal = 200;
     }
-    if(document.getElementById('Amazon Web Services').checked) {
+    if(document.getElementById('aws').checked) {
       argSubTotal = 300;
     }
     else {

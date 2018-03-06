@@ -23,7 +23,7 @@
                 
                 <br>
                 
-                <label for="GMail">
+                <label for="Cloud9">
                     <input type ="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
                     Cloud 9 @ $200
                 </label>
