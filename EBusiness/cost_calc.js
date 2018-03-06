@@ -7,13 +7,13 @@ function calcSub(){
     if(document.getElementById('salesforce').checked) {
       argSubTotal = 100;
     }
-    else if(document.getElementById('cloud9').checked) {
+    else if (document.getElementById('cloud9').checked){
       argSubTotal = 200;
     }
-    if(document.getElementById('aws').checked) {
+    else if (document.getElementById('aws').checked){
       argSubTotal = 300;
     }
-    else {
+    else{
       argSubTotal = 400;
     }
     
@@ -22,21 +22,22 @@ function calcSub(){
 
 
 function calcDisVatTotal(parmSubTotal){
-  var subtotal=parmSubTotal;
-  var DiscountAmt;
+  var subTotal = parmSubTotal;
+  var discountAmt;
   var vatAmt;
   var totalPrice;
+
+  discountAmt = (parmSubTotal * 0.05);
   
-  DiscountAmt= (parmSubTotal=0.05);
-  vatAmt=((parmSubTotal-DiscountAmt)*0.1);
-  totalPrice=((parmSubTotal+vatAmt)-DiscountAmt);
+  vatAmt = ((parmSubTotal - discountAmt) * 0.1);
   
-  display(subtotal,DiscountAmt,vatAmt,totalPrice);
+  totalPrice = ((parmSubTotal + vatAmt) - discountAmt);
+  
+  display(subTotal, discountAmt, vatAmt, totalPrice);
 }
 
 
-
-function display(parm1,parm2,parm3,parm4){
+function display(parm1, parm2, parm3, parm4){
   
   document.getElementById("subtotal").value = parm1;
   document.getElementById("discount").value = parm2;
@@ -53,4 +54,23 @@ function enablebtnProceed(){
 
 function disablebtnProceed() {
     $('#btnProceed').prop('disabled', true);
+}
+
+
+function rbChecked(){
+  disablebtnProceed();
+    
+    /* Displays the picture of the selected radio button product */
+    if(document.getElementById('salesforce').checked) {
+      document.getElementById('pic_test').src='../Images/salesforce_logo.png';
+    }
+    else if (document.getElementById('cloud9').checked){
+      document.getElementById('pic_test').src='../Images/cloud9_logo.png';
+    }
+    else if (document.getElementById('aws').checked){
+      document.getElementById('pic_test').src='../Images/aws_logo.png';
+    }
+    else{
+      document.getElementById('pic_test').src='../Images/gmail_logo.png';
+    }
 }
