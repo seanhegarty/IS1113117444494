@@ -117,3 +117,10 @@
     text-decoration: none;
     transition-duration: 0.4s;
 }
+
+.validatebtn{
+    position:absolute;
+    margin:2%;
+    left:40.5%;
+    top:60%;
+}

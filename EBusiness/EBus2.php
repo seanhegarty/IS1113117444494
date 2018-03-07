@@ -47,14 +47,14 @@ session_start();
                     <label for="user_pin"><strong>PIN:</strong></label>
                     <br>
                    <input type="password" id="user_pin" placeholder="Card PIN" maxlength="4">
-                    <br><br><br>
-                <button type="submit" id="btnPurchase" disabled>Proceed with Purchase</button>
+                    <br><br><br><br><br>
+                <button class="button button2" type="submit" id="btnPurchase" disabled>Proceed with Purchase</button>
               
             </form>
-           </div>
             
-            <br>
-            <button class="button button3" onClick="validateDetails()">Validate</button>
+            <div class="validatebtn">
+                <button class="button button3" onClick="validateDetails()">Validate</button>
+            </div>
           
             <?php
             //set session variable 
@@ -62,7 +62,7 @@ session_start();
            
             ?>
         
-        <script type="text/javascript" src="ebus2_validator.js"></script>
+        <script type="text/javascript" src="EBus2_validator.js"></script>
         
         
     </body>
