@@ -5,7 +5,7 @@ session_start();
 <!DOCTYPE html>
 <html>
     <head>
-        
+        <!--Title of Tab on browser-->
         <title> Enter Details</title>
         
         
@@ -15,7 +15,7 @@ session_start();
     <PHP><head><link href ="EBus.css" rel= "stylesheet" type="text/css"></head></PHP>
     <body class="paymentbackground">
         
-        
+        <!--navigation bar-->
     <ul>
     <li><a href="../CV/cv_page1.html" class="button button1">Curriculum Vitae</a></li>
     <li><a href="../interests/travel.html" class="button button5">Travel</a></li>
@@ -26,37 +26,47 @@ session_start();
     <li style="float:right"><a href="https://github.com/seanhegarty/IS1113117444494/graphs/commit-activity" class="button button8">GitHub</a></li>
     </ul>
         
+            <!--Heading-->
             <h1 class="headingpayment"> Payment Details </h1>
 
             
-            
-            
-            
-             <form name = "myForm"  method="POST" action="EBus3.php">
+            <form name = "myForm"  method="POST" action="EBus3.php">
+                    
                     <br>
+                    
                     <label for = "name">
-                        <strong>  Name:</strong>
-                        <br>
-                        <input type ='text' id ="name" name = "name"/>
+                    <strong>  Name:</strong>
+                    <br>
+                    <input type ='text' id ="name" name = "name"/>
                     </label>
-                    <br><br>
+                    
+                    <br>
+                    <br>
+                    
                     <label for = "email">
-                        <strong> Email:</strong>
-                        <br>
-                        <input type = "email" id ="email" name="email"/>
+                    <strong> Email:</strong>
+                    <br>
+                    <input type = "email" id ="email" name="email"/>
                     </label>
-                    <br><br>
+                    
+                    <br>
+                    <br>
                     
                     <label for = "user_number">
-                        <strong>Card Number</strong></label>
+                    <strong>Card Number</strong></label>
                     <br>
-                     <input type = "text" id ="user_number" name="user_number" maxlength="16"/>
+                    <input type = "text" id ="user_number" name="user_number" maxlength="16"/>
                
-                <br><br>
-                
-                    <label for="user_pin"><strong>PIN:</strong></label>
                     <br>
-                   <input type="password" id="user_pin" placeholder="Card PIN" maxlength="4">
+                    <br>
+                
+                    <label for="user_pin">
+                    <strong>PIN:</strong>
+                    </label>
+                    
+                    <br>
+                    
+                    <input type="password" id="user_pin" placeholder="Card PIN" maxlength="4">
                     <br>
                     <br>
                     <br>
