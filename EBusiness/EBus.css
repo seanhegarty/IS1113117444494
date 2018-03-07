@@ -95,11 +95,11 @@
 
 .button1 {
     background-color: black; 
-    color: #d32410; 
+    color: #d81e11; 
 }
 
 .button1:hover {
-    background-color: #d32410;
+    background-color: #d81e11;
     color: white;
     text-decoration: none;
     transition-duration: 0.4s;
