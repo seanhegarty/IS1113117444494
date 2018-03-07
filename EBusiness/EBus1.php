@@ -16,8 +16,9 @@
             <h1 class="headingpayment"> Select a product </h1>
             <br>
             <form method="POST" action="EBus2.php">
-                <label for="salesforce">
+                <label for="salesforce"> 
                     <input type ="radio" id="salesforce" name="product" checked="Checked" onClick="disablebtnProceed()"/>
+                    
                     Salesforce @ $100
                 </label>
                 
@@ -78,9 +79,9 @@
             
             </form>
             
-            <button class="button button1" onClick="calcSub();calcDisVatTotal()"> Calculate Cost</button>
+            <button class="button button2" onClick="calcSub();calcDisVatTotal()"> Calculate Cost</button>
             <br>
-            <a href="EBus1.php"><input type="button" class="button button2"  value="Clear"></a>
+            <a href="EBus1.php"><input type="button" class="button button1"  value="Clear"></a>
             
         </body>
         
