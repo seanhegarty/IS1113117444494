@@ -12,11 +12,11 @@ session_start();
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     </head>
-    
+    <PHP><head><link href ="EBus.css" rel= "stylesheet" type="text/css"></head></PHP>
     <body class="paymentbackground">
         
         
-            <h1 class="headingpayment"> Select a product </h1>
+            <h1 class="headingpayment"> Payment Details </h1>
 
             
             
@@ -54,7 +54,7 @@ session_start();
            </div>
             
             <br>
-            <button onClick="validateDetails()">Validate</button>
+            <button class="button button3" onClick="validateDetails()">Validate</button>
           
             <?php
             //set session variable 
