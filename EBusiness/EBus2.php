@@ -29,13 +29,14 @@ session_start();
             <!--Heading-->
             <h1 class="headingpayment"> Payment Details </h1>
 
-            
+            <!--links items to EBus3.php-->
             <form name = "myForm"  method="POST" action="EBus3.php">
                     
                     <br>
                     
+                    <!--Textboxes to enter user details-->
                     <label for = "name">
-                    <strong>  Name:</strong>
+                    <strong>Full Name:</strong>
                     <br>
                     <input type ='text' id ="name" name = "name"/>
                     </label>
@@ -66,6 +67,7 @@ session_start();
                     
                     <br>
                     
+                    <!--type password for PIN-->
                     <input type="password" id="user_pin" placeholder="Card PIN" maxlength="4">
                     <br>
                     <br>
@@ -75,7 +77,7 @@ session_start();
             </form>
             
             <div class="validatebtn">
-                <button class="button button33" onClick="validateDetails()">Validate</button>
+            <button class="button button33" onClick="validateDetails()">Validate</button>
             </div>
           
             <?php

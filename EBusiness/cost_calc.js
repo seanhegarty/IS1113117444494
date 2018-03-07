@@ -2,7 +2,7 @@
 var argSubTotal;
 function calcSub(){
     
-    
+    /* algorithm for radio buttons*/
     
     if(document.getElementById('salesforce').checked) {
       argSubTotal = 100;
@@ -20,7 +20,8 @@ function calcSub(){
     (calcDisVatTotal(argSubTotal));
 }
 
-
+    /* function for tax, discount calculationcfrom subtotal*/
+    
 function calcDisVatTotal(){
   var parmSubTotal =(argSubTotal);
   var discountAmt = 0.05;

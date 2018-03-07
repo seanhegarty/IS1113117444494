@@ -8,6 +8,8 @@ function validateDetails(){
     pin = document.getElementById("user_number").value;
     pin = document.getElementById("user_pin").value;
     
+    /*algorithm for pin, firstname, lastname, email, card number error count*/
+    
     if (pin==""){
         alert("Please enter your PIN");
         }

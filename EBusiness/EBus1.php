@@ -24,7 +24,7 @@
     <li><a href="EBus1.php" class="button button3">E Business</a></li>
     <li style="float:right"><a href="https://github.com/seanhegarty/IS1113117444494/graphs/commit-activity" class="button button8">GitHub</a></li>
     </ul>
-            <!--link for style sheer EBus.css-->
+            <!--link for style sheet EBus.css-->
         <PHP><head><link href ="EBus.css" rel= "stylesheet" type="text/css"></head></PHP>
             
             <!--Heading-->
