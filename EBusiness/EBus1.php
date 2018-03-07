@@ -78,7 +78,6 @@
             
             </form>
             
-            <br>
             <button class="button button1" onClick="calcSub();calcDisVatTotal()"> Calculate Cost</button>
             <br>
             <a href="EBus1.php"><input type="button" class="button button2"  value="Clear"></a>

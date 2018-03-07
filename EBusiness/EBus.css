@@ -1,19 +1,19 @@
 .headingpayment{
     text-align: center;
     font-family:sans-serif;
-    color:black;
+    color:white;
     font-size:60px;
 }
 
 .paymentbackground{
-    background:url("https://cdn.wallpaperdirect.com/shared-assets/images/products/118952orig.jpg");
+    background:url("http://t.motionelements.com/stock-video/nature/me2448083-stars-black-sky-hd-a0540-poster.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100%;
     width: 100%;
     left:0;
     top:0;
-    color:black;
+    color:white;
     font-family:sans-serif;
     font-size:28px;
     text-align: center;
@@ -64,7 +64,7 @@
 .shoppingcart{
     position:absolute;
     margin:2%;
-    left:40%;
+    left:40.5%;
     top:80%;
 }
 
