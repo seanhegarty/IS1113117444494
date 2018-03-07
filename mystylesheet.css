@@ -207,7 +207,7 @@ marquee {
     position:absolute;
     margin:2%;
     left:41%;
-    top:92%;
+    top:93%;
 }
 
 .buttonhome{
@@ -414,6 +414,20 @@ li a {
     text-decoration: none;
     transition-duration: 0.4s;
 }
+
+
+.button10 {
+    background-color: black; 
+    color: #ea0202; 
+}
+
+.button10:hover {
+    background-color: #ea0202;
+    color: black;
+    text-decoration: none;
+    transition-duration: 0.4s;
+}
+
 
 
 

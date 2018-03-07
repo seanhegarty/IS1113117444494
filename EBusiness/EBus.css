@@ -281,3 +281,15 @@ li a {
     transition-duration: 0.4s;
     color: black;
 }
+
+.button10 {
+    background-color: black; 
+    color: #ea0202; 
+}
+
+.button10:hover {
+    background-color: #ea0202;
+    color: black;
+    text-decoration: none;
+    transition-duration: 0.4s;
+}
