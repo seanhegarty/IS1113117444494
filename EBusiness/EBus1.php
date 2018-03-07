@@ -12,6 +12,15 @@
         
         <body class="paymentbackground">
             
+            <ul>
+    <li><a href="../CV/cv_page1.html" class="button button1">Curriculum Vitae</a></li>
+    <li><a href="../interests/travel.html" class="button button5">Travel</a></li>
+    <li><a href="../interests/sports.html" class="button button2">Sports</a></li>
+    <li><a href="../interests/cloudservices.html" class="button button4">Cloud Servies</a></li>
+    <li><a href="EBus1.php" class="button button3">E Business</a></li>
+    <li style="float:right"><a href="https://github.com/seanhegarty/IS1113117444494/graphs/commit-activity" class="button button8">GitHub</a></li>
+    </ul>
+            
             <PHP><head><link href ="EBus.css" rel= "stylesheet" type="text/css"></head></PHP>
             <h1 class="headingpayment"> Select a product </h1>
             <br>
@@ -74,14 +83,14 @@
                 
                 <br>
                 <div class="shoppingcart">
-                <button class="button button3" type="submit" id="btnProceed" disable> Add to Shopping Cart</button>
+                <button class="button button33" type="submit" id="btnProceed" disable> Add to Shopping Cart</button>
                 </div>
             
             </form>
             
-            <button class="button button2" onClick="calcSub();calcDisVatTotal()"> Calculate Cost</button>
+            <button class="button button22" onClick="calcSub();calcDisVatTotal()"> Calculate Cost</button>
             <br>
-            <a href="EBus1.php"><input type="button" class="button button1"  value="Clear"></a>
+            <a href="EBus1.php"><input type="button" class="button button11"  value="Clear"></a>
             
         </body>
         
