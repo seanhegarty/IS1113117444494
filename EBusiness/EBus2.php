@@ -22,7 +22,7 @@ session_start();
             
             
             
-             <form name = "myForm"  method="POST" action="Ebus3.php">
+             <form name = "myForm"  method="POST" action="EBus3.php">
                     <br>
                     <label for = "name">
                         <strong>  Name:</strong>

@@ -17,6 +17,10 @@ $email =$_REQUEST['email'];
      </head>
     <body class="paymentbackground">
     <h1>Receipt</h1>
+    
+    <br>
+    <br>
+    <br>
              <?php
             //Echo session varaibles that were set to the previous page
         echo("<strong>Name: </strong>". $name);
