@@ -93,6 +93,12 @@
             <br>
             <a href="EBus1.php"><input type="button" class="button button11"  value="Clear"></a>
             
+            <div class="homebutton">
+        <form method ="get" action="../homepage.html">    
+        <button class="button button44">Home</span></button>
+        </form>
+        </div>
+            
         </body>
         
     </html>

@@ -40,5 +40,12 @@ $email =$_REQUEST['email'];
         echo("<br><strong>Email: </strong>". $email);
         echo "<br><strong>Total: $</strong>" .$_SESSION["total"] ;
         ?>
+        
+        <div class="validatebtn">
+        <form method ="get" action="../homepage.html">    
+        <button class="button button33">Home</span></button>
+        </form>
+        </div>
+        
     </body>
     </html>
