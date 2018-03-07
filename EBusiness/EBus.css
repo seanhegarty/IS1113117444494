@@ -1,3 +1,6 @@
+/*This stylesheet is strictly just for EBus*/
+/*It contains text designs, button designs and some elements from "mystylesheet.css"*/
+
 .headingpayment{
     text-align: center;
     font-family:sans-serif;
@@ -60,7 +63,7 @@
   opacity: 1;
   right: 0;
 }
-
+/* positioning */
 .shoppingcart{
     position:absolute;
     margin:2%;
@@ -75,6 +78,8 @@
     left:1%;
     top:84%;
 }
+
+/* Button designs */
 
 .button {
     background-color: black;

@@ -45,16 +45,16 @@ function validateName(){
         enablebtnPurchase();
         }
 }
-function validateLast(){
- var lastname;
+function validateEmail(){
+ var email;
     
-    lastname = document.getElementById("last_name").value;
+    email = document.getElementById("email").value;
     
-    if (lastname==""){
-        alert("Please enter your last name");
+    if (email==""){
+        alert("Please enter your email");
         }
-    else if (String(lastname).length<2){
-        alert("Please make sure your Name is accurate");
+    else if (String(email).length<2){
+        alert("Please make sure your email is accurate");
         }
     else{
         enablebtnPurchase();
