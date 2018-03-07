@@ -69,7 +69,7 @@
 }
 
 .button {
-    background-color: #4CAF50;
+    background-color: black;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -88,6 +88,30 @@
 
 .button3:hover {
     background-color: #5e8e33;
+    color: white;
+    text-decoration: none;
+    transition-duration: 0.4s;
+}
+
+.button1 {
+    background-color: black; 
+    color: #d32410; 
+}
+
+.button1:hover {
+    background-color: #d32410;
+    color: white;
+    text-decoration: none;
+    transition-duration: 0.4s;
+}
+
+.button2 {
+    background-color: black; 
+    color: #213fed; 
+}
+
+.button2:hover {
+    background-color:#213fed;
     color: white;
     text-decoration: none;
     transition-duration: 0.4s;
