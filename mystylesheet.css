@@ -8,11 +8,12 @@
     font-weight:900;
     text-decoration:underline;
 }
-
+/*font design for raven page*/
 .fontsizeraven{
     font-size:12px;
 }
 
+/*heading for raven page design*/
 .headingraven{
     text-align: center;
     font-family:sans-serif;
@@ -52,6 +53,7 @@
     top:0;
 }
 
+/* this was used for the cv pages*/
 body { 
     background:url("http://avante.biz/wp-content/uploads/Desk-Wallpapers/Desk-Wallpapers-005.jpg");
     background-repeat: no-repeat;
@@ -80,7 +82,7 @@ body {
     font-size:14px;
     text-decoration:underline;
 }
-
+/* iaas, saas, paas, caas font size and color plus there positioning for the raven page*/
 .saas{
     position:absolute;
     font-family:sans-serif;
@@ -167,11 +169,12 @@ body {
     font-family:Montserrat;
 }
 
+/* moving text */
 marquee {
     font-family:fantasy;
 }
 
-
+/* following are mostly button designs, positioning, affects for buttons */
 .textmiddle {
     position:absolute;
     margin:2%;
